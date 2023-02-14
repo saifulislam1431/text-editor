@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -11,22 +12,31 @@ body {
     align-items: center;
     justify-content: center;
     background-color: lightblue;
+    font-family: 'Poppins', sans-serif;
 }
 
 #section-head {
     margin-top: 50px;
-    margin-bottom: 20px;
+    margin-bottom: 12px;
     padding: 10px 20px;
-    border-bottom: 1px solid lightcyan;
+    border-bottom: 1px solid lightgray;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
 }
 
 #main-section {
-    background-color: darkcyan;
+    background-color: lightcyan;
     padding: 0 10px;
     border-radius: 10px;
+}
+
+header {
+    color: green;
+}
+
+span {
+    color: darkslategray;
 }
 
 #utilities {
@@ -35,6 +45,7 @@ body {
 
 textarea {
     outline: none;
+    border-radius: 5px;
 }
 
 #align-left,
